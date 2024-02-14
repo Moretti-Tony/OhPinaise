@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    outline: none;
+    border: none;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body{
+    background: #272727;
+    color: white;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+section{
+    min-height: 100vh;
+}
+
+.Logo{
+    cursor: pointer;
+}
+
+.Logoimg{
+    width: 10rem;
+}
+
+.Logoimg:hover{
+    transform: scale(1.1);
+    transition: .5s ease;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+    margin-left: 4rem;
+    font-size: 1.7rem;
+}
+.navbar a:hover,
+.navbar a.active{
+    color: #ff2770;
+}
+
+#menu{
+    font-size: 3.6rem;
+    display: none;
+}
+
+span{
+    color: #ff2770;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 1.6rem;
+    padding: 1rem 2.8rem;
+    border-radius: 40px;
+    color: white;
+    font-weight: 600;
+    font-family: "Bebas Neue", cursive;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border: 1px solid white;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.btn:hover{
+    background: black;
+    color: #ff2770;
+    border: 1px solid #ff2770;
+}
+
+
+
+.imgBx img{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    filter: brightness(60%);
+    z-index: -1;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    margin-top: 28%;
+}
+
+.content h1{
+    font-size: 8.5rem;
+    margin-bottom: 2rem;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.content p{
+    font-size: 2.2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.content .btn{
+    max-width: 15%;
+}
+
+.story {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image {
+    max-width: 100%;
+    height: 100vh;
+}
+
+.text{
+    width: 50%;
+    padding: 5rem;
+}
+
+.text .title{
+    text-align: center;
+    font-size: 4rem;
+    font-family: "Bebas Neue", cursive;
+    margin-bottom: 2rem;
+    color: #272727;
+    background-color: white;
+    border-radius: 20px;
+    padding: 1.6rem;
+}
+
+.text .p {
+    font-size: 2.2rem;
+    text-align: center;
+    padding: 3rem;
+    margin-right: 1.8rem;
+}
+
+.products {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.productBx {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem;
+}
+
+.productBx img{
+    max-width: 100%;
+    margin: 4rem 0;
+}
+
+.productBx img:hover{
+    transform: scale(1.1);
+    transition: .5s ease;
+}
+
+.making {
+    display: flex;
+    align-items: space-between;
+}
+
+.making .text .p {
+    text-align: left;
+}
+
+.information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form {
+    max-width: 25%;
+    margin: 0 auto;
+}
+
+.form h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form textarea {
+    height: 150px;
+}
+
+.map {
+    margin: auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright {
+    font-size: 1.8rem;
+    margin-left: 4rem;
+}
+
+.mentions {
+    display: flex;
+    margin: auto;
+}
+
+.mentions a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+    margin-left: 4rem;
+    font-size: 1.7rem;
+}
